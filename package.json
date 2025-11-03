@@ -1,0 +1,30 @@
+{
+    "name": "primal-plains",
+    "version": "1.0.0",
+    "description": "",
+    "homepage": "https://github.com/Charlie-J-Martin/primal-plains#readme",
+    "bugs": {
+        "url": "https://github.com/Charlie-J-Martin/primal-plains/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Charlie-J-Martin/primal-plains.git"
+    },
+    "license": "ISC",
+    "author": "",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "devDependencies": {
+        "@types/jest": "^30.0.0",
+        "@typescript-eslint/eslint-plugin": "^8.46.2",
+        "@typescript-eslint/parser": "^8.46.2",
+        "eslint": "^9.39.0",
+        "jest": "^30.2.0",
+        "prettier": "^3.6.2",
+        "ts-jest": "^29.4.5",
+        "typescript": "^5.9.3"
+    }
+}
