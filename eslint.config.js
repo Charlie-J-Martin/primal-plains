@@ -10,10 +10,11 @@ export default tseslint.config(
       parser: tseslint.parser,
       parserOptions: {
         project: true,
-        tsconfigRootDir: __dirname,
+        tsconfigRootDir: import.meta.dirname,
       },
     },
     plugins: {
+      "@typescript-eslint": tseslint.plugin,
       prettier: eslintPluginPrettier,
     },
     rules: {
