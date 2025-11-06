@@ -1,6 +1,6 @@
 export type Snapshot = {
     tick: number;
-    sizeOfWorld: number;
+    sizeOfWorld: Vec;
     creatures: Creature[];
     OccupancyGrid: number[][];
 }
